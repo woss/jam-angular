@@ -12,10 +12,19 @@
     "dependencies": {},
     "main": "angular.js",
 	"shim": {
-      "angularjs1.3": {
-            "exports": "angular"
-        }
-    }
+       "exports": "angular"
+    },
+	"include": [
+    	"angular-sanitize.js",
+    	"angular-cookies.js",
+    	"angular-messages.js",
+    	"angular-mocks.js",
+    	"angular-resource.js",
+    	"angular-route.js",
+    	"angular-animate.js",
+    	"angular-scenarioe.js",
+    	"angular-touch.js"
+    ]
   },
   "maintainers": [
     {
