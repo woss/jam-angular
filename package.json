@@ -9,10 +9,13 @@
 	"jam"
   ],
   "jam": {
-    "dependencies": {
-
-    },
-    "main": "angular.js"
+    "dependencies": {},
+    "main": "angular.js",
+	"shim": {
+      "angularjs1.3": {
+            "exports": "angular"
+        }
+    }
   },
   "maintainers": [
     {
