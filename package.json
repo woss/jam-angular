@@ -15,6 +15,7 @@
        "exports": "angular"
     },
 	"include": [
+		"angular.js",
     	"angular-sanitize.js",
     	"angular-cookies.js",
     	"angular-messages.js",
